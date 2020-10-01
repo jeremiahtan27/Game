@@ -131,16 +131,3 @@ class Necromancer(Mage):
 
 
 
-class Dragon(Mage):
-    def __init__(self):
-        super().__init__()
-        self.name = 'Dragon'
-        self.hp = 2300
-        self.cost = 700
-        self.int = 700
-
-    def cast(self,myTeam,enemy):
-        self.mana -= manaCost
-        target = randAlive(enemy)
-        dprint(f'Burn enemy {target} with fire')
-        enemy[target].gotHurt(self.int)
