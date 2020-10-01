@@ -61,7 +61,6 @@ def userChooseTeam(gold):
             print(f"3: Berserker (cost: {Berserker().cost})")
             print(f"4: ArchMage (cost: {ArchMage().cost})")
             print(f"5: Necromancer (cost: {Necromancer().cost})")
-            print(f"6: Dragon (cost: {Dragon().cost})")
             choice = int(input(f'Input a choice from 1 to {nCharType}:'))
             if choice < 1 or choice > nCharType:
                 print(f"Your choice {choice} is not valid. Please choose again")
