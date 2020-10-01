@@ -33,8 +33,7 @@ def createChar(i):
         return ArchMage()
     elif i == 5:
         return Necromancer()
-    elif i == 6:
-        return Dragon()
+
 
 
 def createRandTeam(gold):
